@@ -15,6 +15,6 @@ public class MessageResource {
 
     @POST
     public Response message(@HeaderParam("Accept-Language") @DefaultValue("en-US") String language, @BeanParam Message message){
-        return Response.ok().entity(new Message("Message is "+message.getMessage())).build();
+        return Response.ok().language("en").entity(new Message("Message is "+message.getMessage())).build();
     }
 }
