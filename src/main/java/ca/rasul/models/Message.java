@@ -1,4 +1,4 @@
-package ca.rasul.modes;
+package ca.rasul.models;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 

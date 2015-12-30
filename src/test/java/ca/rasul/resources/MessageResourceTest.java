@@ -2,7 +2,7 @@ package ca.rasul.resources;
 
 import ca.rasul.MyApplication;
 import ca.rasul.MyConfiguration;
-import ca.rasul.modes.Message;
+import ca.rasul.models.Message;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.dropwizard.client.JerseyClientBuilder;
 import io.dropwizard.testing.junit.DropwizardAppRule;
