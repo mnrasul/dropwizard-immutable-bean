@@ -24,4 +24,10 @@ public class MessageResource {
     public Response hello(@Auth User user){
         return Response.ok().entity("You got permission!").build();
     }
+
+    @GET
+    @Path("/all")
+    public Response everyone(){
+        return Response.ok().entity("free for all").build();
+    }
 }
